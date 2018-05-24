@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Video playback With Tracks</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+    <video id="video_placeholder" width="720" height="406" poster="video/Poster_Bunny.png" controls preload="auto">
+        <source src="video/bunny.webm" type='video/webm; codecs="vp8, vorbis"' />
+        <source src="video/bunny.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        <track kind="subtitles" src="video/bbb_en.vtt" label="English subtitles" srclang="en" default />
+        <track kind="subtitles" src="video/bbb_it.vtt" label="Italian subtitles" srclang="it" />
+        <b>Il tuo browser è OBSOLETO: non supporta l'elemento HTML5 video.</b><br />
+        <b>Puoi comunque effettuare il playback da: </b>
+        <ul>
+            <li><a href="video/bunny.webm">Aerosols.WEBM</a></li>
+            <li><a href="video/bunny.mp4">Aerosols.MP4</a></li>
+        </ul>
+    </video>
+</body>
+</html>

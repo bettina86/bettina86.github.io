@@ -1,0 +1,261 @@
+.vc
+{
+    border: thin dotted #000000;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 10px;
+    left: 10px;
+    background-color: #000000;
+}
+
+#controls
+{
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    position: absolute;
+    width: 600px;
+    height: 36px;
+    top: 413px;
+    left: 10px;
+    background-color: #ebeff1;
+}
+
+#label
+{
+    border: 1px solid #C0C0C0;
+    position: absolute;
+    width: 700px;
+    height: 36px;
+    top: 10px;
+    left: 616px;
+    background-color: #000000;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#playlist
+{
+    border: 1px solid;
+    position: absolute;
+    top: 49px;
+    left: 616px;
+}
+
+div[id|="video"]
+{
+    border-width: 1px;
+    border-color: #000000;
+    position: relative;
+    width: 700px;
+    height: 49px;
+    border-bottom-style: dashed;
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 40px;
+    background-color: #C0C0C0;
+    font-weight: bolder;
+}
+
+    div[id|="video"]:hover
+    {
+        cursor: pointer;
+        background-color: #808080;
+    }
+
+div[id="controls"] > div
+{
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin: 3px;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    color: #FFF;
+    opacity: 0.7;
+}
+
+    div[id="controls"] > div:hover
+    {
+        cursor: pointer;
+        opacity: 1;
+    }
+
+#hide
+{
+    border: 1px solid;
+    position: absolute;
+    width: 600px;
+    height: 36px;
+    top: 413px;
+    left: 10px;
+    background-color: black;
+    opacity: 0.1;
+    display: none;
+}
+
+#loader
+{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 15px;
+    left: 457px;
+    background-image: url('../img/loader.gif');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #0578AF;
+    color: white;
+    font: bold 12px Times, Georgia, serif;
+    display: none;
+    z-index: 100;
+}
+
+#start
+{
+    background-image: url('../img/player_start.png');
+}
+
+#rew
+{
+    background-image: url('../img/player_rew.png');
+}
+
+#play
+{
+    background-image: url('../img/player_play.png');
+}
+
+#pause
+{
+    background-image: url('../img/player_pause.png');
+}
+
+#stop
+{
+    background-image: url('../img/player_stop.png');
+}
+
+#forw
+{
+    background-image: url('../img/player_fwd.png');
+}
+
+#end
+{
+    background-image: url('../img/player_end.png');
+}
+
+#volume
+{
+    background-image: url('../img/volume.png');
+}
+
+#caption
+{
+    background-image: url('../img/caption.png');
+}
+
+#playlist_sh
+{
+    background-image: url('../img/playlist.png');
+}
+
+#fullscreen
+{
+    background-image: url('../img/full_screen.png');
+}
+
+#upload
+{
+    background-image: url('../img/upload.png');
+}
+
+#metadata
+{
+    color: black;
+    font-weight: bolder;
+    width: 135px;
+    border-left-style: dotted;
+    border-left-width: thin;
+    border-right-style: dotted;
+    border-right-width: thin;
+    cursor: default;
+    opacity: 1;
+    border-right-color: #000000;
+    border-left-color: #000000;
+}
+
+#track_upload
+{
+    width: 400px;
+    height: 400px;
+    background-color: #373a3d;
+    padding: 30px;
+    text-align: center;
+}
+
+#uf
+{
+    display: none;
+}
+
+#PB
+{
+    margin-top: 50px;
+}
+
+    #PB span
+    {
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 9px;
+        font-weight: bolder;
+        font-size: 0.7em;
+    }
+
+    #PB div#status
+    {
+        position: absolute;
+        margin-left: 400px;
+        width: 32px;
+        height: 32px;
+        display: none;
+    }
+
+#volume_slider
+{
+    position: absolute;
+}
+
+#subtitles
+{
+    position: absolute;
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: #363635;
+    font-weight: bolder;
+    padding-left: 8px;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: white;
+}
+
+    #subtitles hr
+    {
+        border: 0;
+        height: 1px;
+        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+        background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+        background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+        background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    }

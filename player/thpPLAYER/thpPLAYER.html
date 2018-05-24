@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/thpPLAYER.css" rel="stylesheet" type="text/css" />
+    <link href="js/jquery-ui-1.10.3.custom/css/dark-hive/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/thpPLAYER.js"></script>
+    <script>
+        $(function ()
+        {
+            thpPLAYER.init();
+
+        });
+    </script>
+    <title>thpPLAYER v1.0 By Pellegrino ~thp~ Principe</title>
+</head>
+<body>
+    <video id="video_container" width="600" height="400" class="vc" poster="img/poster.png"></video>
+    <div id="controls">
+        <div id="start" title="inizio..."></div>
+        <div id="rew" title="riavvolgi..."></div>
+        <div id="play" title="riproduci..."></div>
+        <div id="pause" title="pausa..."></div>
+        <div id="stop" title="ferma..."></div>
+        <div id="forw" title="avanti..."></div>
+        <div id="end" title="fine..."></div>
+        <div id="metadata" title="tempo corrente/ durata">00:00:00 / 00:00:00</div>
+        <div id="volume" title="volume..."></div>
+        <div id="fullscreen" title="fullscreen..."></div>
+        <div id="upload" title="upload a track..."></div>
+        <div id="caption" title="caption..."></div>
+        <div id="playlist_sh" title="playlist..."></div>
+    </div>
+    <div id="playlist">
+        <div id="video-0"></div>
+        <div id="video-1"></div>
+        <div id="video-2"></div>
+        <div id="video-3"></div>
+        <div id="video-4"></div>
+        <div id="video-5"></div>
+        <div id="video-6"></div>
+        <div id="video-7"></div>
+    </div>
+    <div id="label">Playlist corrente: Video totali: <span>0</span></div>
+    <div id="hide" title="Controlli di playback non utilizzabili"></div>
+    <div id="loader">Download in corso...</div>
+    <div id="track_upload">
+        <form id="form_1" method="post" action="php/upload.php" enctype="multipart/form-data">
+            <div>
+                <button id="bu" type="button">Scegli il file</button>
+                <input id="uf" type="file" name="upl" />
+            </div>
+            <div id="PB">
+                <span class="ui-widget"></span>
+                <div class="ui-widget" id="status"></div>
+            </div>
+        </form>
+    </div>
+    <div id="message"></div>
+    <div id="volume_slider"></div>
+    <div id="subtitles">
+        Subtitles:
+        <hr />
+    </div>
+</body>
+</html>

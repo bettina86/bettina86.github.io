@@ -1,0 +1,346 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+article,figcaption,figure,footer,header,hgroup,nav,section{
+     display: block;
+}
+
+@font-face {
+     font-family: "Chalet";
+	 src: url("../fonts/Chalet.eot");
+	 src: url("../fonts/Chalet.eot?#iefix") format("embedded-opentpe"),
+	  url("../fonts/Chalet.woff") format("woff"),
+	  url("../fonts/Chalet.ttf") format("truetype"),
+	  url("../fonts/Chalet.svg#Chalet") format("svg");
+	 font-weight: normal;
+     font-style: normal;	 
+
+}
+@font-face {
+     font-family: "Pecita";
+	 src: url("../fonts/Pecita.eot");
+	 src: url("../fonts/Pecita.eot?#iefix") format("embedded-opentpe"),
+	  url("../fonts/Pecita.woff") format("woff"),
+	  url("../fonts/Pecita.ttf") format("truetype"),
+	  url("../fonts/Pecita.svg#Chalet") format("svg");
+	 font-weight: normal;
+     font-style: normal;	 
+
+}
+
+body{
+   background: #212121 url("../img/fondo.jpg");
+   color: #FFF;
+   font-family: "Chalet", Helvetica, Verdana;
+   font-size: 1em;
+   
+}
+a{
+  color: #FFA500;
+   font-weight:blod;
+   text-decoration: none;
+}
+
+a:hover{
+   color: #F60;
+}
+
+audio, iframe, img, video{
+   max-width: 100%;
+}
+
+figcaption{
+   font-size:0.85em;
+   padding: 0.25em;
+   text-align: center;
+}
+
+
+h2, h3{
+   color: #F90;
+   font-family: "Pecita", Helvetica, Verdana;
+}
+
+h3{
+   background: #E2E7F1;
+   border-radius: 1em;
+   box-shadow: .25em .25em .25em rgba(255,153,0,.5):
+   margin-bottom: .5em;
+   padding-left: .5em;
+}
+
+hr{
+   border: 1px dashed #FFF;
+   margin: 1em 0;
+}
+
+ol{
+   padding: 0 2em;
+}
+
+ol li{
+   padding: 1em;
+}
+
+header, section#contenitore, footer{
+   background: #FFF url("../img/fondo-interno.jpg");
+   margin: 0 auto;
+   max-width: 90%;
+   text-align: center;
+}
+
+
+header h1, nav{
+   display: inline-block;
+   max-width: 100%;
+   vertical-align: middle;
+}
+
+nav ul{
+    list-style: none;  
+}
+
+nav li{
+     color: #FFA500;
+   display: inline-block;  
+   padding: 0.1em;
+   vertical-align: top;
+}
+nav a{
+   background: #FFF;
+   border: 0.1em solid #57ABB8;
+   border-radius: 0.25em;
+    -ms-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-o-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+   display: block; 
+   font-family: "Pecita", Helvetica, Verdana;
+   font-size: 1.4em;   
+   padding: 0.2em;
+   -ms-transition: all 0.5s ease-in;
+   -moz-transition: all 0.5s ease-in;
+   -o-transition: all 0.5s ease-in;
+   -webkit-transition: all 0.5s ease-in;
+   transition: all 0.5s ease-in;
+}
+
+nav a:hover{
+   background: #212121;
+   border: 0.1em dashed #F60;
+   border-radius: 0 0.1em dashed #F60;
+   -ms-border-radius: 0 0.1em dashed #F60;
+	-moz-border-radius: 0 0.1em dashed #F60;
+	-o-border-radius: 0 0.1em dashed #F60;
+	-webkit-border-radius: 0 0.1em dashed #F60;
+   color: #FFF;
+    -ms-transition: all 0.5s ease-out;
+   -moz-transition: all 0.5s ease-out;
+   -o-transition: all 0.5s ease-out;
+   -webkit-transition: all 0.5s ease-out;
+   transition: all 0.5s ease-out;
+}
+
+section#principal, aside{
+	   background: #1E6381;
+	   border-radius: 0.5em;
+	   -ms-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	   display: inline-block;
+	   margin: 0 auto;
+	   max-width: 100%;
+	   padding: 0.25em;
+	   vertical-align: top;
+	   width: 65%;
+	   }
+article#galleria-inizio{
+       
+	   border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	 margin: 0.5em;
+	 padding : 0.5em;
+	 text-align: left;
+	 width: 95%;
+}	   
+  	   
+aside{
+     width: 30%;
+
+}
+
+aside img, #img-about img, #video-about, #img-servizi{
+     border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+
+}	
+
+article#descrizione-about, article#multimedia-about{
+    background: #1E6381;
+	border-radius: .5em;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 543px;
+	padding: .5em;
+	text-align: justify;
+	width; 55%;
+
+}
+
+article#multimedia-about{
+     text-align: center;
+	 width: 40%;
+
+}   
+
+
+
+
+section#servizi-principali, section#servizi-tipi{
+     margin: 0 auto;
+	 max-width: 95%;  
+     padding : 0.75em 0;
+}
+
+#img-servizi, article#nostri-servizi{
+     display: inline-block;
+	 margin: 1em 0;
+	 vertical-align: top;
+	 width: 40%;
+
+} 
+
+article#nostri-servizi, article#servizio1, article#servizio2, article#servizio3{
+     background: #1E6381;
+	 border-radius: .5em;
+	 max-width: 100%;
+     min-height: 300px;	 
+     padding : .5em;
+	 text-align: justify;
+	 width: 55%; 
+}
+
+article#servizio1, article#servizio2, article#servizio3{
+     background: #011E30;
+	 display: inline-block;
+	 width: 31%;
+     vertical-align: top;	 
+}
+
+article#servizio1 div, article#servizio2{
+     text-align: center;	 
+}
+
+footer{
+     color: #000;
+	 font-size: 0.85em;  
+     padding : 0.75em 0;
+}
+.fade{
+    opacity: 1;
+	filter:alpha(opacity=10);
+   -ms-transition: all 0.5s ease-in;
+   -moz-transition: all 0.5s ease-in;
+   -o-transition: all 0.5s ease-in;
+   -webkit-transition: all 0.5s ease-in;
+   transition: all 0.5s ease-in;
+    
+}
+.fade:hover{
+    opacity: 0.7;
+	filter:alpha(opacity=7);
+   -ms-transition: all 0.5s ease-out;
+   -moz-transition: all 0.5s ease-out;
+   -o-transition: all 0.5s ease-out;
+   -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+ }  
+
+ @media screen and (min-width:1081px){
+    header h1{
+	  text-align: left;
+	  width: 35%;
+	}
+	
+	nav{
+	  text-align: right;
+	  width: 60%;
+	}
+ }
+ 
+ @media screen and (max-width: 1080px){
+    nav li{
+	  font-size: 1.3em;
+	}
+	
+	article#galleria-inizio{
+	  width: 90%;
+	}
+	
+	aside{
+	   width: 20%;
+	}
+	
+	article#descrizione-about, article#multimedia-about, #img-servizi, article#nostri-servizi{
+	  width: 45%;
+	}
+	article#servizio1, article#servizio2, article#servizio3{
+	  width: 30%;
+	}
+	
+ }
+ 
+ @media screen and (max-width: 800px){
+    nav li{
+	  font-size: 0.95em;
+	}
+	
+	article#galleria-inizio{
+	  width: 88%;
+	}
+	#img-servizi, article#nostri-servizi, article#servizio1, article#servizio2{
+	  display: block;
+	  margin: 0 0 .25em 0;
+	  width: 95%;
+	}
+	#img-servizi{
+	 
+	  width: 98%;
+	}
+	article#servizio2, article#servizio3{
+	  width: 45%;
+	}
+ }
+ 
+  @media screen and (max-width: 600px){
+    nav li{
+	 display: inline-block;
+	 margin: 0px;
+	 width: 98%;
+	}
+	
+	section#principal, article#descrizione-about, article#servizio2{
+	 margin-bottom: 0.2 em;
+	 
+	}
+	
+	section#principal, aside, article#descrizione-about, article#multimedia-about, article#servizio2, article#servizio3{
+	 display: block;
+	 width: 95%;	 
+	}
+	
+	#img-servizi{
+	  display:none;
+	}
+ }
